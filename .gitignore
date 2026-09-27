@@ -1,0 +1,28 @@
+# Checkpoints e pesos do modelo
+*.pt
+*.pth
+*.ckpt
+*.bin
+best_model.pt
+copom_gpt.pt
+minha_llm_best.pt
+
+# Corpus e dados brutos
+*.txt
+*.pdf
+raw/
+data/
+train.bin
+val.bin
+input_master.txt
+input_clean.txt
+
+# Artefatos locais do tokenizador
+tokenizer/vocab.json
+tokenizer/merges.txt
+
+# Caches do ambiente Python e Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
